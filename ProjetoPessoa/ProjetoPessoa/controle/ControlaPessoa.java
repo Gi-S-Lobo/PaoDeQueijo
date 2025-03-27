@@ -24,7 +24,7 @@ public class ControlaPessoa {
 		    Pessoa pessoa = new Pessoa(id,nome,idade,peso,altura);
 		    
 		    pessoa.listarPessoa();
-		    
+		    pessoa.calcularIMC();
 		    scanner.close();
 
 	}
